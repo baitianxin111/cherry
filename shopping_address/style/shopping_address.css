@@ -1,0 +1,567 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /*vertical-align:baseline;*/
+}
+body{
+    overflow-x: hidden;
+}
+.ding{
+    /*position: absolute;*/
+    margin-bottom: 108px;
+}
+.login-reg{
+    padding-top: 18px;
+}
+.login-reg a{
+    color: white;
+    text-decoration: none;
+}
+#nav-conter{
+    background-color: #282959;
+    padding: 5px 0;
+}
+#bs-example ul{
+    margin-top: 48px;
+}
+#bs-example ul a{
+    color: white;
+}
+#conter-use{
+    margin: 150px 0 0 0;
+    padding: 0;
+}
+.conter-tx img{
+    /*border-bottom: 1px solid #282959;*/
+    width: 70%;
+}
+.conter-wc{
+    margin-top: 250px;
+}
+.container-list{
+    /*border-right: 1px solid #282959;*/
+    padding: 0;
+}
+/*.aaaa{*/
+/*margin-right: 90px;*/
+/*}*/
+#welcon-span{
+    margin-top: 50px;
+}
+.hr11{
+    border: 1px solid #282959;
+    margin: 0;
+    padding: 0
+}
+.hr22{
+    background-color: #282959;
+    width: 3px;
+    height: 520px;
+    float: right;
+    margin-top: -50px
+}
+.btn-default{
+    background-color: #282959;
+    border: 1px solid #282959;
+    color: white;
+}
+.form-control{
+    border: 1px solid #282959;
+}
+.list-left li{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 60%;
+    line-height: 60%;
+    float: right;
+}
+.use-conter22{
+    margin-top: -3%;
+}
+.container-list{
+    margin-top: 2%;
+}
+
+.input-sech{
+    width: 50%;
+}
+.input-hou{
+    padding-top: 15px;
+    margin-left: -30%;
+}
+
+.bgcolor{
+    background-color:#282959 ;
+    width: 65%;
+    height: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.like{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navlunbo ul{
+    list-style: none;
+}
+.navlunbo ul li{
+    float: left;
+}
+.zy-Slide p{
+    font-size: 16px;
+    margin:5px 18px;
+    color: #7F7F7F;
+}
+.zy-Slide span:first-child{
+    font-size: 16px;
+    margin:5px 18px;
+    color: #3c3c3c;
+}
+.zy-Slide span:nth-child(2){
+    font-size: 16px;
+    margin:5px 18px;
+    background-color:  #282959;
+    color: white;
+}
+
+.zy-Slide ul{
+    position: relative;
+    margin-left: 15%;
+    /*width:60%;*/
+    /*height:292px;*/
+}
+.zy-Slide li{
+    position:absolute;
+}
+.zy-Slide li:first-child{
+    top:90px ;
+    left: 140px;
+    width: 10%;
+}
+.zy-Slide li:nth-child(2){
+    top:45px;
+    left: 220px;
+    width: 17%;
+}
+.zy-Slide li:nth-child(3){
+    margin-top: 5px;
+    left: 350px;
+    width: 100%;
+    z-index: 0;
+}
+.zy-Slide li:nth-child(4){
+    top:45px;
+    left: 550px;
+    width: 17%;
+    z-index: -1;
+}
+.zy-Slide li:nth-child(5){
+    top:90px ;
+    left: 700px;
+    z-index: -2;
+    width: 10%;
+}
+.slogins{
+    margin-top: 400px;
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+}
+.saoma{
+    text-align: center;
+}
+.saoma img{
+    text-align: center;
+}
+.dz-conter{
+    margin-left: 284px;
+    margin-top: 70px;
+}
+
+.borde-dz{
+    padding: 10px;
+    border: 2px solid #333333;
+    margin-left: 72px;
+    line-height: 15px;
+}
+.borde-dz span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    display: block;
+    background-color: #333333;
+    width: 40px;
+    color: white;
+}
+
+.banquan{
+    padding: 10px;
+    margin-top: 30px;
+    border-top: 2px solid #282959;
+    text-align: center;
+}
+.list-left{
+    margin-top: 50px;
+}
+.list-left ul li:nth-child(5){
+    background-color: #282959;
+    color: white;
+}
+
+.list-input1{
+    margin-top: 200px;
+    margin-left: 52px;
+    font-size: 13px;
+}
+.list-input1 select{
+    padding:5px 5px;
+}
+.input1 input{
+    width: 100%;
+    padding: 5px 10px;
+}
+.list-inputtwo{
+    margin-top: -75px;
+    margin-left: 52px;
+    font-size: 13px;
+}
+.list-inputtwo input{
+    width: 100%;
+    padding: 5px 10px;
+}
+.list-inputtherr{
+    margin-top: -10px;
+    margin-left: 52px;
+    font-size: 13px;
+}
+.list-inputtherr input{
+    width: 100%;
+    padding: 5px 10px;
+}
+.list-inputfor{
+    margin-top: 30px;
+    margin-left: 52px;
+    font-size: 13px;
+}
+.list-inputfor input{
+    width: 100%;
+    padding: 5px 10px;
+}
+.list-inputff{
+    margin-top: 30px;
+    margin-left: 52px;
+    font-size: 13px;
+}
+.list-inputff input{
+    width: 100%;
+    padding: 5px 10px;
+}
+.list-inputfiv{
+    margin-top: 30px;
+    margin-left: 205px;
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+.list-inputfiv input{
+    margin-right: 2px;
+}
+.list-inputsex a{
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    color: white;
+    background-color: #282959;
+    margin-right: 20px;
+}
+.select-color option,.list-input3 textarea{
+    color: #7E7575;
+}
+#selectAdd{
+    color: #7E7575;
+}
+.list-input3{
+    margin-top: -165px;
+    margin-left: 52px;
+    font-size: 13px;
+}
+.list-input3 textarea{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.list-input2{
+    margin-top: -150px;
+    margin-left: 52px;
+    font-size: 13px;
+}
+@media (max-width: 768px) {
+
+
+    .list-inputff input{
+        width: 80%;
+        padding: 5px 10px;
+    }
+    .list-inputff{
+        margin-top: 20px;
+        margin-left: 52px;
+        font-size: 12px;
+    }
+    .list-input1{
+        margin-top: 150px;
+        margin-left: 0;
+        font-size: 11px;
+    }
+    .list-input1 select{
+        padding:5px 5px;
+    }
+    .input1 input{
+        width: 100%;
+        padding: 5px 10px;
+    }
+    .list-inputtwo{
+        margin-top: -160px;
+        margin-left: 52px;
+        font-size: 12px;
+    }
+    .list-inputtwo input{
+        width: 150%;
+        padding: 5px 10px;
+    }
+    .list-inputtherr{
+        margin-top: -90px;
+        margin-left: 52px;
+        font-size: 12px;
+    }
+    .list-inputtherr input{
+        width: 150%;
+        padding: 5px 10px;
+    }
+    .list-inputfor{
+        margin-top: -20px;
+        margin-left: 52px;
+        font-size: 13px;
+    }
+    .list-inputfor input{
+        width: 110%;
+        padding: 5px 10px;
+    }
+    .list-inputforr{
+        margin-top: -220px;
+    }
+    .list-inputfiv{
+        margin-top: 30px;
+        margin-left: 70px;
+        font-size: 13px;
+        line-height: 20px;
+        padding-bottom: 5px;
+    }
+    .list-inputfiv input{
+        margin-right: 2px;
+    }
+    .list-inputsex a{
+        padding: 5px 0;
+        text-align: center;
+        text-decoration: none;
+        width: 100px;
+        display: block;
+        color: white;
+        background-color: #282959;
+        margin-right: 30px;
+        float: right;
+    }
+    .select-color option,.list-input3 textarea{
+        color: #7E7575;
+    }
+    #selectAdd{
+        color: #7E7575;
+    }
+    .list-input3{
+        margin-top: -250px;
+        margin-left: 52px;
+        font-size: 13px;
+    }
+    .list-input3 textarea{
+        width: 150%;
+        padding: 10px 10px;
+    }
+
+    .list-input2{
+        margin-top: -150px;
+        margin-left: 52px;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .borde-dz{
+        padding: 5px;
+        border: 1px solid #333333;
+        margin-left: 10px;
+        line-height: 10px;
+    }
+    .borde-dz span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        display: block;
+        background-color: #333333;
+        width: 30px;
+        color: white;
+    }
+    .dz-conter{
+        margin-top: 50px;
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .back{
+        margin-top: -50px;
+    }
+    #buttons{
+        position: absolute;
+        margin-left: 110%;
+    }
+    .navbar-header{
+        width: 45%;
+        /*margin-top: -14%;*/
+        margin-left: 30%;
+        margin-bottom: 5px;
+    }
+    .banquan{
+        font-size: 12px;
+    }
+    .slogins{
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+    .slogins img{
+        margin-left: -35%;
+        width: 150%;
+    }
+    .saoma {
+        font-size: 10px;
+        text-align: center;
+    }
+    .saoma img{
+        width: 50%;
+    }
+    .zy-Slide p{
+        font-size: 12px;
+        margin:0 ;
+        color: #7F7F7F;
+    }
+    .zy-Slide span:first-child{
+        font-size: 12px;
+        margin:0;
+        color: #3c3c3c;
+    }
+    .zy-Slide span:nth-child(2){
+        font-size: 12px;
+        margin:0 15px;
+        background-color:  #282959;
+        color: white;
+    }
+    .bgcolor{
+        width: 90%;
+        height: 5px;
+    }
+    .zy-Slide ul{
+        position: relative;
+        margin-left: -80px;
+        /*width:60%;*/
+        /*height:292px;*/
+    }
+    .zy-Slide li{
+        position:absolute;
+    }
+    .zy-Slide li:first-child{
+        top:50px ;
+        left: 120px;
+        width: 10%;
+    }
+    .zy-Slide li:nth-child(2){
+        top:30px;
+        left: 150px;
+        width: 17%;
+    }
+    .zy-Slide li:nth-child(3){
+        margin-top: 5px;
+        left: 200px;
+        width: 25%;
+        z-index: 0;
+    }
+    .zy-Slide li:nth-child(4){
+        top:30px;
+        left: 300px;
+        /*width: 17%;*/
+        z-index: -1;
+    }
+    .zy-Slide li:nth-child(5){
+        top:50px ;
+        left: 350px;
+        z-index: -2;
+        /*width: 10%;*/
+    }
+
+
+
+    .input-sech{
+        margin-top: 5px;
+        width: 120%;
+        height: 20%;
+    }
+
+    .input-hou{
+        padding-top: 15px;
+        margin-left: 50%;
+        margin-top: -8%;
+        font-size: 12px;
+    }
+    .use-conter {
+        margin-top: 50px;
+        width: 50%;
+    }
+    #conter-use{
+        margin: 200px 0 0 0;
+        padding: 0;
+    }
+    .use-conter22 img{
+        margin-left: 100%;
+        margin-top: -45px;
+    }
+    .use-conter22 span{
+        font-size: 12px;
+        margin-left:30% ;
+        position: absolute;
+        top: -60px;
+        left: 10px;
+    }
+    .left-xie img{
+        width: 50%;
+        margin-bottom: 2px;
+    }
+    .hr22{
+        width: 2%;
+        margin-top: -40%;
+    }
+    .list-left li{
+        font-size: 12px;
+        line-height: 15px;
+        /*height: 90px;*/
+    }
+}

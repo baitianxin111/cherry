@@ -1,10 +1,610 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>我的收藏</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!--
+            样式文件插入位置
+        -->
+        <link rel="stylesheet" href="../style/bootstrap.css">
+        <link rel="stylesheet" href="../style/detail.css">
+    </head>
+    <body>
+        <div class="top_menu">
+            <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 
-</body>
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar-header col-lg-6">
+                            <div class="login_register col-lg-5">
+                                <span><a href="../../login/loginBefore.html">注册</a></span>
+                                <span><a href="../../login/loginBefore.html">登录</a></span>
+                            </div>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+
+                           <img src="../images/logo.png" alt="logo" class="logo_img"/>
+                        </div>
+
+                        <div class="collapse navbar-collapse main_menu col-lg-6" id="navbar">
+                            <ul class="nav navbar-nav navbar-right ">
+                                <li><a href="../../home_page/template/home_page.html">返回首页</a></li>
+                                <li><a href="../../cart/template/cart.html">我的购物车</a></li>
+                                <li><a href="#">收藏宝贝</a></li>
+                                <li><a href="../../security_center/template/security_center.html">个人中心</a></li>
+                                <li><a href="#">我的历史宝贝</a></li>
+                                <li><a href="#">手机客户端</a></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div> <!-- top_menu 结束-->
+
+        <div class="linkmenu ">
+            <div class="container-fluid hidden-xs">
+                    <div class="link_menu ">
+
+                        <img src="../images/mbx.png.png" width="917px" height="57px" alt="" >
+                        <a href="../../login/loginBefore.html" class="col-lg-offset-4 link_logo">|快速登录|</a>
+                    </div>
+
+                    <p class="link_title">首页>CHERRY樱桃高端精致专场>白色印花连衣裙</p>
+                    <div class="br">
+                    </div>
+
+            </div>
+
+
+            <div class="container">
+                <div class="particulars">
+                        <div class="particulars_img col-lg-6">
+                            <img src="../images/dzs.png.png"  alt="" class="particulars_product">
+                        </div>
+                        <div class="particulars_text col-lg-6">
+                            <h3>ZlMMUR白色印花时尚真丝连衣裙</h3>
+                            <ul>
+                                <li><i>人民币</i><span class="particulars_RMB">￥799.00</span>
+                                    <span class="particulars_discount">7折</span>
+                                    <span class="particulars_Review hidden-xs" >热品</span></li>
+                                <li><i>地址</i>
+                                    <select name="" id="" class="particulars_select">
+                                    <option value ="saab">北京</option>
+                                    <option value="opel">上海</option>
+                                    <option value="audi">广州</option>
+                                    </select>
+                                </li>
+                                <li><i>邮费</i> <span class="particulars_postage">免邮费</span></li>
+
+                                <li><i>颜色</i>
+                                    <ul class="color_ul">
+                                        <li></li>
+                                        <li class="hidden-xs"></li>
+                                        <li class="hidden-xs"></li>
+                                        <li class="hidden-xs"></li>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+
+                                </li>
+                                <li></li>
+
+                                <li class="particulars_yardage"><i>尺码</i>
+
+                                    <span>S</span>
+                                    <span>M</span>
+                                    <span>L</span>
+                                </li>
+                                <li><i>数量</i>
+                                            <span class="count">
+                                            <i>-</i>
+                                            <span>1</span>
+                                            <i>+</i>
+                                            </span>
+
+                                </li>
+                            </ul>
+                            <div class="shopping_cart">
+                                <span>立即下单</span>
+                                <span>加入购物车</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="linkmenu_list hidden-xs">
+
+            <div class="container-fluid">
+                <ul class="col-lg-8 col-lg-offset-2">
+                    <li><img src="../images/xzs1.png.png" alt=""></li>
+                    <li><img src="../images/xzs2.png.png" alt=""></li>
+                    <li><img src="../images/xzs3.png.png" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="coupon_list hidden-xs">
+            <div class="container">
+
+                    <ul class="coupon_list_img col-lg-9 ">
+                        <li><img src="../images/y1.png.png" alt=""></li>
+                        <li><img src="../images/y2.png.png" alt=""></li>
+                        <li><img src="../images/y3.png.png" alt=""></li>
+                        <li><img src="../images/y4.png.png" alt=""></li>
+                    </ul>
+
+            </div>
+        </div>
+
+
+        <div class="menu_list hidden-xs">
+            <div class="container-fluid">
+
+                <ul class="menu_list_ul">
+                    <li></li>
+                    <li>商品详情</li>
+                    <li>购买口碑</li>
+                    <li>猜你喜欢</li>
+                    <li>购买须知</li>
+                    <li>联系客服</li>
+                    <li>关于我们</li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+        <div class="product_display hidden-xs">
+            <div class="container">
+
+                <div class="product_show">
+                        <div class="product_text">
+                            <p>
+                                <span class="parameter">商品参数</span><span class="parameter_det">DEtTAL</span>
+                            </p>
+                            <ul>
+                                <li>品牌名称：<span>ZIMMUR</span></li>
+                                <li>商品名称：<span>白色印花时尚高端紧致真丝连衣裙白色</span></li>
+                                <li>商品分类：<span>连衣裙 产地：深圳</span></li>
+                                <li>材质：<span>面料：100%桑蚕丝 里料：100%粘纤</span></li>
+
+                                <li>洗涤说明：<span>
+                                        <p>不可浸泡，手洗最高洗涤温度40℃</p>
+                                        <p>不可漂洗；悬挂晾干；烫斗地板最高温度110℃；不可干洗</p>
+                                    </span>
+                                </li>
+
+                                <li>图案：<span>印花裙型：包臀裙</span></li>
+                                <li>袖型：<span>常规面料：真丝</span></li>
+                                <li>腰型：<span>中腰</span></li>
+                                <li>版型：<span>修身肩型：常规肩</span></li>
+                                <li>领型：<span>其他裙长：中长裙</span></li>
+                                <li>袖长：<span>短袖 流行元素：印花</span></li>
+                                <li>适用人群：<span>青年，中年，微胖美眉</span></li>
+                                <li>使用季节: <span>夏季 风格：原创风</span></li>
+
+                            </ul>
+                        </div>
+
+
+
+                        <div class="icon_img">
+                            <span class="icon_img_text">2017引领时尚风标</span>
+                            <h1 class="inon_img_title">商品展示</h1>
+                            <span class="icon_cherry">CHERRY</span>
+                        </div>
+                        <div class="show_img">
+                            <i class="imagem1"></i>
+                            <i class="imagem2"></i>
+                            <i class="imagem3"></i>
+                        </div>
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="show_img_models hidden-xs">
+
+            <div class="container">
+                    <div class="models_text">
+                        <ul>
+                            <li>时尚高端的连衣裙，优雅而夺目</li>
+                            <li>唯美，优雅大方，精致细腻</li>
+                            <li>时尚个性，特色迷人</li>
+                            <li>模特展示</li>
+                        </ul>
+                    </div>
+
+                    <div class="models_img">
+                    </div>
+                    <div class="models_img_list">
+                        <ul>
+                            <li><img src="../images/mt2.png.png" alt=""></li>
+                            <li><img src="../images/mt2.png.png" alt=""></li>
+                            <li><img src="../images/mt2.png.png" alt=""></li>
+                        </ul>
+                    </div>
+            </div>
+
+        </div>
+
+
+        <div class="show_list hidden-xs">
+            <div class="container">
+                <div class="models_text show_list_ul">
+                    <ul>
+                        <li>时尚高端的连衣裙，优雅而夺目</li>
+                        <li>唯美，优雅大方，精致细腻</li>
+                        <li>时尚个性，特色迷人</li>
+                        <li>细节展示</li>
+                    </ul>
+                </div>
+                <div class="show_list_ul_list">
+                    <ul class="col-lg-5 col-lg-offset-2 ">
+                        <li><img src="../images/xj1.png.png" alt=""></li>
+                        <li><img src="../images/xj2.png.png" alt=""></li>
+                        <li><img src="../images/xj3.png.png" alt=""></li>
+                        <li><img src="../images/xj4.png.png" alt=""></li>
+                        <li><img src="../images/xj5.png.png" alt=""></li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="comment hidden-xs">
+            <div class="container-fluid">
+                <div class="commen">
+
+                </div>
+
+                <div class="commen_list_top col-lg-6 col-lg-offset-2">
+                    <h1>购买口碑</h1>
+                    <ul class="conmen_list_firch">
+
+                            <li>
+                                    <div class="conmen_border1">
+                                        <div class="conmen_border2">
+                                            <i>99%</i>
+                                            <span>的人都说好</span>
+                                        </div>
+                                    </div>
+                            </li>
+
+                            <li>
+                                <span>全部（8880）</span>
+                                <span>追评（58）</span>
+                                <span>图片（588）</span>
+                                <span>差评（1）</span>
+
+                            </li>
+                    </ul>
+                    <div class="conter_list">
+                        <ul class="comment_list_details  ">
+
+                            <div class="comment_list_mo">
+                                <li>
+                                    <div class="tx_title">
+                                        <h3>匿名</h3>
+                                        <img src="../images/wx.png.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tx_text">
+                                        <p>颜色分类：<span>U43杏仁带多色</span> 尺码：160/84M中码</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="comment_list_mo">
+                                <li>
+                                    <div class="tx_title">
+                                        <h3>匿名</h3>
+                                        <img src="../images/wx.png.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tx_text">
+                                        <p>颜色分类：<span>U43杏仁带多色</span> 尺码：160/84M中码</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="comment_list_mo">
+                                <li>
+                                    <div class="tx_title">
+                                        <h3>匿名</h3>
+                                        <img src="../images/wx.png.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tx_text">
+                                        <p>颜色分类：<span>U43杏仁带多色</span> 尺码：160/84M中码</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="comment_list_mo">
+                                <li>
+                                    <div class="tx_title">
+                                        <h3>匿名</h3>
+                                        <img src="../images/wx.png.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tx_text">
+                                        <p>颜色分类：<span>U43杏仁带多色</span> 尺码：160/84M中码</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="comment_list_mo">
+                                <li>
+                                    <div class="tx_title">
+                                        <h3>匿名</h3>
+                                        <img src="../images/wx.png.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tx_text">
+                                        <p>颜色分类：<span>U43杏仁带多色</span> 尺码：160/84M中码</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="comment_list_mo">
+                                <li>
+                                    <div class="tx_title">
+                                        <h3>匿名</h3>
+                                        <img src="../images/wx.png.png" alt="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="tx_text">
+                                        <p>颜色分类：<span>U43杏仁带多色</span> 尺码：160/84M中码</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                        <p>颜色上身优雅大方，做工精细 蕾丝和内里用料好，穿着舒适</p>
+                                    </div>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="Scene_images hidden-xs">
+            <div class="container-fluid borderwidth ">
+                <div class="col-lg-6 col-lg-offset-2">
+                     <span class="Scene_text">
+                    <h3>猜你喜欢</h3>
+                    </span>
+                    <div class="banneri_img">
+
+                        <ul class="banneri_ul">
+                            <li><img src="../images/cnxh2.png.png" alt=""></li>
+                            <li><img src="../images/cnxh2.png.png" alt=""></li>
+                            <li><img src="../images/cnxh1.png.png" alt=""></li>
+                            <li><img src="../images/cnxh2.png.png" alt=""></li>
+                            <li><img src="../images/cnxh2.png.png" alt=""></li>
+                        </ul>
+                        <div class="banneri_text">
+                            <p>圆领蕾丝清纯气质连衣裙</p>
+                            <p>￥568</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div><!-- Scene_images 结束-->
+
+
+        <div class="purchase_notes hidden-xs">
+            <div class="container">
+
+                <div class="purchase_notes_title">
+                    <h3>购买须知</h3>
+                </div>
+
+                <div class="purchase_notes_text">
+                    <p>CHRRY樱桃味第三方交易平台及互联网信息服务提供者，CHERRY樱桃所展示的商品、服务的标题、价格、详情等信息内容
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+                        由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。
+
+                    </p>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="service hidden-xs">
+            <div class="container">
+                <div>
+                    <h3>联系客服</h3>
+                </div>
+
+                <div class="service_input">
+                    <input type="text" placeholder="发送您的问题，我们为您解答">
+                    <span href="" class="send">发送</span>
+                    <span href="" class="line_send">在线咨询</span>
+                </div>
+
+                <div>
+                    <div class="border_box_title">
+                        <h3>关于我们</h3>
+                    </div>
+                    <div class="border_box">
+                        <div class="bor_ling">
+                            <img src="../images/kf.png.png" alt="">
+
+                            <span>您好，小美为您解答</span>
+
+                        </div>
+
+                        <input type="text"><span class="btnsend">发送</span>
+                    </div>
+                    <div class="p_text">
+                        <p>
+                            由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实
+                            。 由店铺经营者发布。其真实性、准确性和合法性均由店铺经营者负责。C
+                            HERRY樱桃提醒用户购买商品、服务前注意谨慎核实。 由店铺经营者发布。其
+                            真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、
+                            服务前注意谨慎核实。 由店铺经营者发布。其真实性、准确性和合法性均由店铺经
+                            营者负责。CHERRY樱桃提醒用户购买商品、服务前注意谨慎核实。 由店铺经营者发布
+                            。其真实性、准确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服
+                            务前注意谨慎核实。 由店铺经营者发布。其真实性、准
+                            确性和合法性均由店铺经营者负责。CHERRY樱桃提醒用户购买商品、服务前注意
+                            谨慎核实。
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="endstart hidden-xs">
+            <div class="endstart_top">
+
+            </div>
+            <div class="endstart_button">
+
+            </div>
+            <div class="endtart_cir">
+                <p>返回顶部</p>
+            </div>
+
+        </div>
+
+        <div class="selectbtn hidden-xs">
+
+            <input type="text" class="select_input"/>
+            <div class="select_btn">全网搜索</div>
+
+            <div class="select_text">
+
+                        <ul>
+                            <li>关键词:</li>
+                            <li>蕾丝连衣裙</li>
+                            <li>蕾丝连衣裙</li>
+                            <li>蕾丝连衣裙</li>
+                            <li>蕾丝连衣裙</li>
+                        </ul>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="hint">
+            <div class="container-fluid">
+                <div class="init_img">
+                    <img src="../images/sz.png.png" alt="">
+                </div>
+
+            </div>
+            <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-2">
+                            <span class="contact_phone col-lg-2 col-lg-offset-2">
+                            </span>
+
+                            <span class="call col-lg-5">
+                                <p>020-12345679</p>
+                                <p>020-12345679</p>
+                                <p>020-12345679</p>
+                            </span>
+                        </div>
+
+                        <div class=" col-lg-4 col-lg-offset-1 hidden-xs">
+                            <span class="wx1 "></span>
+                            <span class="wx2 " ></span>
+
+                        </div>
+
+                    </div>
+            </div>
+
+        </div><!-- hint 结束-->
+        <div class="foot">
+            <div class="container">
+                <p class="col-lg-9 col-lg-offset-2">网络文化经营许可证：浙网文[2015]0295-065号
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙公网安备33010002000120号
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;2003-2017Siuu.Com版权所有</p>
+            </div>
+
+        </div> <!-- hint foot-->
+
+
+
+        <!--
+            脚本文件插入位置
+        -->
+    <script src="../direction/jquery.js"></script>
+    <script src="../direction/bootstrap.js"></script>
+    <script src="../direction/my_favorite.js"></script>
+    </body>
 </html>
+
+

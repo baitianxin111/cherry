@@ -2,9 +2,259 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="../../lib/bootstrap/dist/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="../style/jquery.zySlide.style">-->
+    <link rel="stylesheet" href="../style/my_order.css">
 </head>
 <body>
+    <!--导航条开始-->
+        <nav class="navbar navbar-default navbar-fixed-top" id="nav-conter">
+            <div class="container">
+                <div class="row">
+                    <div class="login-reg navbar-left col-md-2">
+                        <a href="../../login/loginBefore.html">登录</a>&nprcue;
+                        <a href="../../login/loginBefore.html">注册</a>
+                    </div>
+                    <div class="navbar-header  col-md-2 navbara">
+                        <div class="">
+                            <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#bs-example" id="buttons">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <img src="../images/logo.png.png" alt="" class="img-responsive media-object navbar-right">
+                        </div>
+
+                    </div>
+                    <div class="collapse navbar-collapse navbar-right col-md-8 " id="bs-example">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="back"><a href="../../home_page/template/home_page.html">返回首页</a></li>
+                            <li><a href="#">我的店铺</a></li>
+                            <li><a href="#">手机店铺</a></li>
+                            <li><a href="../../about_us/template/about_us.html">关于我们</a></li>
+                            <li><a href="#">帮助中心</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    <!--导航条结束-->
+    <div class="ding"></div>
+    <!--主体一开始-->
+        <div class="conter-use">
+            <div class="container-fluid" id="conter-use">
+                <div class="row left-xie">
+                    <div class="col-md-4 col-xs-4 conter-tx">
+                        <img src="../images/mbx.png.png" alt="" class="img-responsive">
+                        <hr class="hr11">
+                    </div>
+                    <div class="col-md-8 col-xs-8">
+                        <div class="container">
+                            <div class="row use-conter22">
+                                <div class="col-md-8 col-xs-8 col-xs-offset-1 ">
+                                    <img src="../images/tx.png.png" alt="" class="img-responsive navbar-right  use-conter">
+                                    <span class="navbar-right " id="welcon-span" style=" margin-top: 50px;">欢迎你！刘小姐</span>
+                                </div>
+                                <!--<div class="col-md-2"><img src="../images/tx.png.png" alt="" class="navbar-left img-responsive"></div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conter2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-2 container-list">
+                        <div class="hr22"></div>
+                        <div class="list-left">
+                            <ul>
+                                <li class="list-group-item"><a href="#">我的订单</a></li>
+                                <li class="list-group-item"><a href="#">我的优惠</a></li>
+                                <li class="list-group-item"><a href="../../security_center/template/security_center.html">账户安全</a></li>
+                                <li class="list-group-item"><a href="#">我的收藏</a></li>
+                                <li class="list-group-item"><a href="../../shopping_address/template/shopping_address.html">收货地址</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-md-10 col-xs-10">
+                        <div class="row">
+                            <div class="col-md-7 col-xs-6 col-md-offset-2 ">
+                                <div class="input-group  input-sech">
+                                    <input type="text" class="form-control" placeholder="">
+                                    <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">搜索</button>
+                                    </span>
+                                </div><!-- /input-group -->
+                            </div>
+                            <div class="col-md-3 col-xs-7 input-hou">
+                                <span>所有订单</span>
+                                <span>已付款</span>
+                                <span>代付款</span>
+                            </div>
+                        </div>
+                        <div class="row order-list">
+                            <div class="col-md-2 col-xs-2">
+                                <img src="../images/cp.png.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-md-3 col-xs-5">
+                                <p class="p-heard hidden-xs">订单号：78945649875649875</p>
+                                <p class="contt">樱桃cherry蓝色妖姬晚礼服镂空连衣裙秋夏季款</p>
+                                <p class="size-botton">尺码:s 颜色:蓝色 </p>
+                            </div>
+                            <div class="col-md-2  hidden-xs">
+                                <p class="p-heard">下单时间：2017.3.24</p>
+                            </div>
+                            <div class="col-md-1 col-xs-2">
+                                <p class="lin-heigh1">数量</p>
+                            </div>
+                            <div class="col-md-2  hidden-xs">
+                                <p class="p-heard">发货地：广东省广州市</p>
+                            </div>
+                            <div class="col-md-2 col-xs-3">
+                                <p class="lin-heigh2">已付款</p>
+                            </div>
+                        </div>
+                        <div class="row order-list">
+                            <div class="col-md-2 col-xs-2">
+                                <img src="../images/cp.png.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-md-3 col-xs-5">
+                                <p class="p-heard hidden-xs">订单号：78945649875649875</p>
+                                <p class="contt">樱桃cherry蓝色妖姬晚礼服镂空连衣裙秋夏季款</p>
+                                <p class="size-botton">尺码:s 颜色:蓝色 </p>
+                            </div>
+                            <div class="col-md-2  hidden-xs">
+                                <p class="p-heard">下单时间：2017.3.24</p>
+                            </div>
+                            <div class="col-md-1 col-xs-2">
+                                <p class="lin-heigh1">数量</p>
+                            </div>
+                            <div class="col-md-2  hidden-xs">
+                                <p class="p-heard">发货地：广东省广州市</p>
+                            </div>
+                            <div class="col-md-2 col-xs-3">
+                                <p class="lin-heigh2">已付款</p>
+                            </div>
+                        </div>
+                        <div class="row order-list">
+                            <div class="col-md-2 col-xs-2">
+                                <img src="../images/cp.png.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="col-md-3 col-xs-5">
+                                <p class="p-heard hidden-xs">订单号：78945649875649875</p>
+                                <p class="contt">樱桃cherry蓝色妖姬晚礼服镂空连衣裙秋夏季款</p>
+                                <p class="size-botton">尺码:s 颜色:蓝色 </p>
+                            </div>
+                            <div class="col-md-2  hidden-xs">
+                                <p class="p-heard">下单时间：2017.3.24</p>
+                            </div>
+                            <div class="col-md-1 col-xs-2">
+                                <p class="lin-heigh1">数量</p>
+                            </div>
+                            <div class="col-md-2  hidden-xs">
+                                <p class="p-heard">发货地：广东省广州市</p>
+                            </div>
+                            <div class="col-md-2 col-xs-3">
+                                <p class="lin-heigh2">已付款</p>
+                            </div>
+                        </div>
+
+                        <div class="row page-list">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--主体一结束-->
+    <!--图片轮播部分开始-->
+        <div class="container bgcolor"></div>
+    <div class="container">
+        <p class="like">猜你喜欢</p>
+        <div class="navlunbo">
+            <div id="Slide1" class="zy-Slide">
+                <!--prev:元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。-->
+                <ul>
+                    <!--alt + shift : 可以创建一个矩形选择区域-->
+                    <div class="row">
+                        <li><img src="../images/cnxh2.png.png" class="img-responsive" /></li>
+                        <li><img src="../images/cnxh2.png.png" class="img-responsive"/></li>
+                        <li><img src="../images/cnxh2.png.png" class="img-responsive"/>
+                            <p>圆领蕾丝青春气质连衣裙</p>
+                            <p><span>¥568</span><span>HOT</span></p>
+                        </li>
+                        <li><img src="../images/cnxh2.png.png" class="img-responsive"/></li>
+                        <li><img src="../images/cnxh2.png.png" class="img-responsive"/></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--图片轮播部分结束-->
+    <!--尾部开始-->
+    <div class="slogin">
+        <div class="container slogins">
+            <img src="../images/sz.png.png" alt="" class="">
+        </div>
+    </div>
+    <div class="saoma">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 hidden-xs"></div>
+                <div class="col-md-2 col-xs-6 "><img src="../images/dh.png.png" class=""></div>
+                <div class="col-md-2 col-xs-6">
+                    <p>020-12345678</p>
+                    <p>020-12345678</p>
+                    <p>020-12345678</p>
+                    <p>020-12345678</p>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <img src="../images/ew1.png.png" alt="" class="">
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <img src="../images/ew1.png.png" alt="" class="">
+                </div>
+                <div class="col-md-2 hidden-xs"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid banquan">
+        <p>
+            <span>网络文化经营许可证：浙网文[2015]0295-065号</span>
+            <span>浙公网备330100030001220号</span>
+            <span>©2003-2017 Siuu.COM版权所有</span>
+        </p>
+    </div>
+    <!--尾部结束-->
+
 
 </body>
+<script  src="../../lib/jquery/dist/jquery.min.js"></script>
+<!--<script src="../js/jquery.zySlide.js"></script>-->
+<!--<script src="../js/index.js"></script>-->
+<script src="../../lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </html>

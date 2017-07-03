@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title></title>
+    <link rel="stylesheet" href="lib/public/loginBefore.css">
+    <link rel="stylesheet" href="lib/public/base.css">
+    <script src="lib/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            var oindex=$(".index");
+            var obtnLeft=$(".btnLeft");
+            var obtnRight=$(".btnRight");
+            var ologin=$("#login");
+            var ozhuce=$("#zhuce");
+            //左边按钮点击事件
+            obtnLeft.click(function(){
+                obtnLeft.hide();
+                obtnRight.hide();
+                ologin.show();
+                return false;
+            });
+            //右边按钮点击事件
+            obtnRight.click(function(){
+                obtnLeft.hide();
+                obtnRight.hide();
+                ozhuce.show();
+                return false;
+            });
+            //登录区域失去焦点
+            oindex.click(function(){
+                obtnLeft.show();
+                obtnRight.show();
+                ologin.hide();
+                ozhuce.hide();
+                return false;
+            })
+            ologin.click(function(){
+                ologin.show();
+                return false;
+            })
+            ozhuce.click(function(){
+                ozhuce.show();
+                return false;
+            })
+
+        });
+    </script>
+
+</head>
+
+<body>
+<!--总页面-->
+<div class="index background">
+    <!--背景图片-->
+    <img class="zt" src="images/zt.png.png" />
+    <!--登录-->
+    <div class="login" id="login">
+        <div style="z-index:111">
+            <form action="" method="post" id="FormLogin">
+                <table id="tableLogin">
+                    <tr>
+                        <td class="account">帐号:</td>
+                        <td class="phoneNum">
+                            <input type="text"  name="LuseName" id="LuseName" placeholder="手机号/email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="pass">密码:</td>
+                        <td class="pPass">
+                            <input type="password" name="LpassWord" id="LpassWord" value="" placeholder="请输入密码" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="forget"><a href="">点击注册</a>&nbsp;&nbsp;&nbsp;<a href="">忘记密码?</a></td>
+                    </tr>
+                </table>
+                <button class="btn2">立即登入</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!--注册-->
+    <div class="zhuce" id="zhuce">
+        <div style="z-index:111">
+        <form action="" method="post" id="ZhuCeForm">
+            <table class="zhuceTable">
+                <tr><td class="account2" >输入帐号:</td>
+                    <td class="name" colspan="2" ><input type="text" id="ZuseName" name="ZuseName" value="" placeholder="输入6~12位数字加字母"/></td></tr>
+                <tr><td class="pass2">输入密码:</td>
+                    <td class="rpass" colspan="2"><input type="password" name="ZpassWord" id="ZpassWord" placeholder="输入6~12位数字加字母"/></td></tr>
+                <tr><td class="affirmPass">确认密码:</td>
+                    <td class="againPass" colspan="2"><input type="password" name="ZpassWord2" id="ZpassWord2" placeholder="重新输入一次你设计的密码"/></td></tr>
+                <tr><td class="Email" >E-mail:</td>
+                    <td class="email" colspan="2"><input type="text" name="Ze-Mail" id="Ze-Mail" value="" placeholder="输入您的电子邮箱"/></td></tr>
+                <tr><td class="auth" >验证码:</td>
+                    <td class="Refresh" ><input type="text" id="yanzhengma" name="yanzhengma" value="" placeholder="验证码"/></td>
+                    <td class="Rauth"><div id="yanzhengma2">刷新验证码</div></td></tr>
+            </table>
+            <button id="zhuceTijiao">完成提交</button>
+        </form>
+    </div>
+</div>
+
+<div class="btnLeft btn">立即登入</div>
+<div class="btnRight btn">注册帐号</div>
+</div>
+</body>
+
+</html>

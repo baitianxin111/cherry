@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*vertical-align:baseline;*/
+}
+body{
+    overflow-x: hidden;
+}
+.ding{
+    /*position: absolute;*/
+    margin-bottom: 108px;
+}
+.section1{
+    background: #D1D2F3 url(../images/logobj.png.png) no-repeat 50% 20%;
+    /*margin-top: 109px;*/
+}
+.section1-p1{
+    font-family: "微软雅黑";
+    color: #333;
+    float: right;
+    /*font-size: 14pt;*/
+}
+.section1-text{
+    margin-top: 230px;
+}
+.section1-nav{
+    margin: auto;
+    margin-top: 83px;
+    color: white;
+    text-align: center;
+}
+#section1-nav{
+    background: url(../images/xdh.png.png) no-repeat center;
+    background-size: cover;
+}
+.section1-nav a{
+    color: white;
+    text-decoration: none;
+    /*margin: 13px;*/
+}
+.section1-tu{
+    overflow: hidden;
+    margin-top: 27px;
+    /*width: 150%;*/
+}
+
+.section1-ban{
+    margin-top: 180px;
+}
+.section1-man{
+    position: relative;
+}
+.section1-move{
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 20%;*/
+    margin-top: -10%;
+}
+.info-tu{
+   justify-content: center;
+}
+.section1-tu{
+
+}
+.section1-tu img{
+    /*width: 348px;*/
+    /*height: 232px;*/
+    /*float: left;*/
+    /*margin-right: 5px;*/
+
+}
+.section2{
+    background-color: #E9D2F3;
+}
+.section3{
+    background-color: #C0FBB2;
+}
+.section4{
+    background-color: #B2FBF4;
+}
+
+
+.login-reg{
+    padding-top: 18px;
+}
+.login-reg a{
+    color: white;
+    text-decoration: none;
+}
+#nav-conter{
+    background-color: #282959;
+    padding: 5px 0;
+}
+#bs-example ul{
+    margin-top: 48px;
+}
+#bs-example ul a{
+    color: white;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (max-width: 768px) {
+    .section1-text{
+        margin-top: 50px;
+    }
+    .section1-move img{
+        width: 30%;
+    }
+    .section1-nav{
+        margin: 60px auto;
+        color: white;
+        text-align: center;
+
+    }
+    .section1-tu{
+        margin-top: 100px;
+    }
+    .section1-move{
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*left: 20%;*/
+        margin-top: -20%;
+        margin-left: 25%;
+    }
+    .section1-ban{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .ding{
+        /*position: absolute;*/
+        margin-bottom: 95px;
+    }
+    #bs-example li:first-child{
+       margin-top: -40px;
+    }
+    .navbar-header img{
+        padding-bottom: 5px;
+        width: 40%;
+        margin-left: 30%;
+
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+
+}

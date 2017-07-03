@@ -1,0 +1,386 @@
+/*主页面*/
+.index{
+	width: 100%;
+	height: 1003px;
+	background-image: url(../../images/bj.png.png);
+	position: relative;
+}
+/*图片*/
+img{
+	position: absolute;
+	left: 689px;
+	top: 428px;
+}
+.account {
+	padding-bottom: 30px;
+	font-size: 18pt;
+}
+.account2 {
+	padding-bottom: 14px;
+	font-size: 18pt
+}
+.phoneNum {
+	padding-bottom: 30px;
+	padding-left: 20px;
+}
+.pass {
+	padding-top: 20px;
+	font-size: 18pt;
+}
+.pPass {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.forget {
+	text-align: right;
+}
+.name {
+	padding-bottom: 14px;
+	padding-left: 14px;
+}
+.pass2 {
+	padding-bottom: 14px;
+	font-size: 18pt
+}
+.rpass {
+	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-left: 14px;
+}
+.affirmPass {
+	padding-bottom: 14px;
+	font-size: 18pt;
+}
+.againPass {
+	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-left: 14px;
+}
+.Email {
+	padding-bottom: 14px;
+	font-size: 18pt
+}
+.email {
+	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-left: 14px;
+}
+
+/*按钮*/
+.btn{
+	width: 304px;
+	height: 61px;
+	line-height: 61px;
+	border: 2px solid #181937;
+	font-size: 22pt;
+	border-radius: 10px;
+	text-align: center;
+	cursor:pointer;
+}
+.auth {
+	padding-bottom: 14px;
+	font-size: 18pt
+}
+.Refresh {
+	padding-bottom: 14px;
+	padding-top: 14px;
+	padding-left: 14px;
+	text-align: left;
+}
+
+.btnLeft{
+	background-color: #181937;
+	color:#ffffff ;
+	position: absolute;
+    left: 596px;
+    top: 588px;
+}
+
+.btnRight{
+	color:#181937 ;
+	position: absolute;
+	left: 1050px;
+	top: 588px;
+}
+
+/*登录*/
+.login{
+	width: 679px;
+	height: 424px;
+	position: absolute;
+	left: 639px;
+	top: 256px;
+	display: none;
+	background-color:rgba(0,0,51,0.7);
+	z-index: 100;
+}
+
+.btn2{
+	width: 304px;
+	height: 61px;
+	line-height: 61px;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	cursor:pointer;
+	color: #333366;
+	font-size: 18pt;
+	margin-left: 203px;
+    margin-top: 82px;
+}
+
+#tableLogin{
+	color: #FFFFFF;
+	margin-left: 100px;
+	margin-top: 55px;
+}
+#tableLogin input{
+	width: 419px;
+	height: 53px;
+	border: none;
+	border-radius: 8px;
+	font-size:18pt;
+	text-indent: 15px;
+}
+
+#tableLogin a{
+	color:#FFFFFF ;
+}
+/*注册*/
+.zhuce{
+	width:680px;
+	height:704px;
+	display: none;
+	background-color:rgba(0,0,51,0.7);
+	z-index: 100;
+    position: absolute; 
+    top: 116px;
+    left: 639px;
+}
+
+.zhuceTable input{
+	width: 419px;
+	height: 53px;
+	border: none;
+	border-radius: 8px;
+	font-size:12pt;
+	text-indent: 15px;
+}
+
+.zhuceTable{
+	color: #FFFFFF;
+	margin-left: 32px;
+	margin-top: 55px;
+	text-align: right;
+}
+#yanzhengma{
+	width: 255px;
+	height: 53px;
+	border: none;
+	border-radius: 8px;
+	font-size:12pt;
+	text-indent: 15px;
+}
+#yanzhengma2 {
+	width: 145px;
+	height: 38px;
+	border: none;
+	border-radius: 6px;
+	font-size:12pt;
+	text-align: center;
+	line-height: 38px;
+	background-color: white;
+	color: #666666;
+	cursor:pointer;
+}
+#zhuceTijiao{
+	width: 304px;
+	height: 61px;
+	line-height: 61px;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	cursor:pointer;
+	color: #333366;
+	font-size: 18pt;
+	margin-left: 203px;
+    margin-top: 82px;
+}
+
+/*响应式样式*/
+@media (max-width: 768px) {
+	.index {
+		height:667px;
+	}
+	/*背景图片*/
+	.background{
+		width: 100%;
+		background: url("../../images/bj.png.png") no-repeat;
+		background-size: 375px 667px;
+	}
+	.zt {
+		width: 87%;
+		height: 79px;
+		margin-left: -178%;
+		margin-top: -63%;
+	}
+
+	.btnLeft{
+		width: 110px;
+		height: 40px;
+		font-size: 18px;
+		line-height: 40px;
+		margin-left: -150%;
+		margin-top: -80%;
+	}
+	.btnRight{
+		width: 110px;
+		height: 40px;
+		font-size: 18px;
+		line-height: 40px;
+		margin-left: -219%;
+		margin-top: -80%;
+	}
+	.login,.zhuce {
+		width: 340px;
+		height: 228px;
+		margin-left: -166%;
+		margin-top: -31%;
+		background-color:rgba(0,0,51,0.7);
+		z-index: 100;
+	}
+	.account {
+		width: 50px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 10px;
+	}
+	#tableLogin {
+		margin-left: 42px;
+		margin-top: 11px;
+	}
+	#tableLogin input{
+		width: 184px;
+		height: 36px;
+		border-radius: 8px;
+		font-size:15px ;
+		text-indent: 15px;
+		margin-left: -14%;
+	}
+	.phoneNum {
+		padding-bottom: 30px;
+		padding-left: 20px;
+	}
+	.pass {
+		font-size: 10pt;
+		margin-left: -20%;
+	}
+	.forget {
+		text-align: center;
+	}
+	.btn2 {
+		width: 150px;
+		height: 40px;
+		line-height: 40px;
+		margin-left: 28%;
+		margin-top: 4%;
+		border-radius: 8px;
+		font-size:15px ;
+		text-indent: 15px;
+	}
+	element.style {
+		padding-bottom: 8px;
+		font-size: 9pt;
+	}
+	.zhuce {
+		height: 429px;
+		margin-top: -17%;
+	 }
+	.zhuceTable input {
+		width: 184px;
+		height: 36px;
+		border-radius: 8px;
+		font-size:10pt ;
+		text-indent: 15px;
+		margin-left: 1px;
+		margin-top: 0;
+	}
+	.account {
+		font-size: 10pt;
+		margin-left: -20%;
+	}
+	.pass {
+		font-size: 10pt;
+		margin-left: -20%;
+	}
+	.rpass {
+		padding-bottom: 11px;
+		padding-top: 2px;
+	}
+	.againPass {
+		padding-bottom: 20px;
+		padding-top: 4px;
+	}
+	.account2 {
+		padding-bottom:0;
+		font-size: 9pt;
+	}
+	.pass2 {
+		padding-bottom: 0;
+		font-size: 9pt;
+	}
+	.affirmPass {
+		font-size: 9pt;
+	}
+	.email {
+		padding-bottom: 12px;
+		padding-top: 0;
+	}
+	.Email {
+		font-size: 9pt;
+	}
+	.auth {
+		padding-bottom: 0;
+		font-size: 9pt;
+	}
+	#yanzhengma{
+		width: 90px;
+		height: 36px;
+		border: none;
+		border-radius: 8px;
+		font-size: 12pt;
+		text-indent: 15px;
+		margin-left: 1px;
+	}
+	#yanzhengma2{
+		width: 65px;
+		height: 25px;
+		border: none;
+		border-radius: 8px;
+		font-size: 5pt;
+		line-height: 26px;
+		background-color: #fff;
+		text-align: center;
+		color: #666;
+		cursor: pointer;
+		margin-left: 28px;
+	}
+	#zhuceTijiao {
+		width: 174px;
+		height: 49px;
+		line-height: 49px;
+		border-radius: 10px;
+		background-color: #fff;
+		text-align: center;
+		cursor: pointer;
+		color: #336;
+		font-size: 18pt;
+		margin-left: 88px;
+		margin-top:24px;
+	}
+	form {
+		margin-left: 2%;
+	}
+
+}
+

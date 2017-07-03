@@ -1,0 +1,523 @@
+/*文件字体设置*/
+@font-face
+{
+    font-family:AdobeHeitiStd;
+    src: url("../fontFamily/AdobeHeitiStd-Regular.otf");
+}
+
+/*顶部菜单的整个背景颜色*/
+.navbar-inverse
+{
+    background-color: #282959;
+    height: 105px;
+
+}
+
+
+/*主菜单的位置调整*/
+.main_menu
+{
+    margin-top: 65px;
+    font-family: AdobeHeitiStd;
+    font-size: 14px;
+}
+/*注册登录*/
+.login_register
+{
+    display:inline-block;
+    color: #ffffff;
+    font-family: AdobeHeitiStd;
+    font-size: 14px;
+    margin-top: 21px;
+}
+/*logo位置调整*/
+
+.logo_img
+{
+    margin-top: 15px;
+}
+
+/*######################top_menu#############################*/
+/*
+   清除navbar默认底部的
+*/
+.navbar{
+    margin-bottom: 0;
+}
+.manage_mentu
+{
+    /*background-color: rebeccapurple;*/
+    height: 90px;
+    margin-top: 50px;
+}
+/*清除默认*/
+.mbx_img,.mbx_txt
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.mbx_img
+{
+    margin-top: 21px;
+}
+.mbx_txt
+{
+    text-align: right;
+    line-height: 125px;
+    margin-right: -1px;
+}
+.tx_img
+{
+    display: block;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+
+.brwidth
+{
+    display: block;
+    width: 680px;
+    height: 2px;
+    background-color: #282959;
+}
+/*######################manage_mentu#############################*/
+
+.my_favorite
+{
+    /*background-color: #269abc;*/
+}
+.my_favorite_menu
+{
+    /*background-color: red;*/
+    height: 750px;
+    position: relative;
+    top: -70px;
+    /*background-color: chartreuse;*/
+    margin-left: -80px;
+}
+.my_favorite_menu
+{
+    border-right: 2px solid #282959;
+
+}
+
+.favorite_menu
+{
+    margin-top: 70px;
+    list-style: none;
+    color: #333366;
+    font-size: 12px;
+
+}
+.favorite_menu li
+{
+    width: 100px;
+    height: 24px;
+    border: 1px solid #333333;
+    margin-top:15px ;
+    text-align: center;
+    line-height: 24px;
+    margin-left: 137px;
+}
+
+
+.my_favorite_manage
+{
+
+    height: 100px;
+    position: relative;
+    margin-top: -48px;
+    left: 40px;
+
+}
+
+.search_box
+{
+    margin-left: 60px;
+
+}
+.search_box input
+{
+    border: 1px solid #282959;
+    margin-left: 100px;
+    width: 292px;
+    height: 27px;
+}
+.search_box a
+{
+    display: inline-block;
+    height: 29px;
+    width: 60px;
+    background-color:#282959;
+    text-align: center;
+    line-height: 29px;
+    color: #ffffff;
+}
+.search_box span
+{
+    display: inline-block;
+    height: 29px;
+    width: 60px;
+    font-size: 12px;
+    color: #282959;
+    margin-left: 26px;
+
+    position: relative;
+    top: 9px;
+
+}
+.coupons_manage
+{
+
+    overflow: hidden;
+
+}
+.coupons_manage li
+{
+    list-style: none;
+    float: left;
+    margin-left: 65px;
+    margin-top: 32px;
+}
+
+.coupons_manage>p
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    font-size: 22px;
+    margin-top: 40px;
+
+}
+
+.coupons_manage_ul
+{
+    margin-left: -37px;
+    margin-top: 32px;
+}
+.coupons_manage_ul li
+{
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+.favorite_manage
+{
+
+    height: 170px;
+    margin-top: 20px;
+
+    position: relative;
+}
+.favorite_manage>p
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    font-size: 22px;
+}
+
+.ulcp_imgbox p
+{
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.ulcp_imgbox li
+{
+    float: left;
+    margin-left: 65px;
+    margin-top: 37px;
+
+}
+.ulcp_imgbox
+{
+    position: absolute;
+    margin-top: 37px;
+
+}
+.cp_img
+{
+    left: 50%;
+    margin-left: -24px;
+    position: absolute;
+
+
+}
+.cp_imgborder
+{
+    border:1px solid #2b669a;
+    height:150px;
+
+}
+
+
+
+.cp_orror
+{
+    display: block;
+    top:0;
+    right: 0;
+    background: url(../images/qx.png.png) no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+.cp_imgbox
+{
+    height: 284px;
+    width: 131px;
+    /*background-color: darkgreen;*/
+    position: relative;
+    float: left;
+    margin-right: 48px;
+}
+.favorite_manage ul{
+    list-style: none;
+    margin-left: -40px;
+    width: 960px;
+
+
+}
+.pages
+{
+    /*background-color: rebeccapurple;*/
+    width: 670px;
+    margin-left: 220px;
+}
+/*####################################################*/
+.borderwidth
+{
+    border-top: 10px #282959 solid;
+    margin-top: -40px;
+}
+.Scene_images
+{
+    /*background-color: red;*/
+}
+.Scene_text h2
+{
+    margin-top: 34px;
+    font-size: 24px;
+    color: #333;
+}
+.banneri_img
+{
+    /*background-color: darkgreen;*/
+
+    height: 460px;
+    position: relative;
+}
+.banneri_ul
+{
+    width: 942px;
+    margin-left: 60px;
+    list-style: none;
+    position: relative;
+}
+.banneri_ul li
+{
+    float: left;
+}
+.banneri_ul li:first-child
+{
+    position: absolute;
+    top:52px;
+}
+
+.banneri_ul li:nth-of-type(2)
+{
+    position: absolute;
+    top:72px;
+    left: 220px;
+}
+.banneri_ul li:nth-of-type(3)
+{
+    position: absolute;
+    top:17px;
+    left: 388px;
+    z-index: 99;
+}
+.banneri_ul li:nth-of-type(4)
+{
+    position: absolute;
+    top:72px;
+    left: 610px;
+    z-index: 88;
+}
+.banneri_ul li:last-child
+{
+    position: absolute;
+
+    top:52px;
+    left: 790px;
+}
+
+.banneri_text
+{
+    position: absolute;
+    font-size: 20px;
+    left: 50%;
+    margin-left: -100px;
+    bottom: 0;
+    color: #000;
+}
+/*##############################################*/
+.init_img
+{
+    margin-left: 150px;
+}
+.contact_phone
+{
+    display: inline-block;
+    background:url(../images/dh.png.png) no-repeat;
+    width: 89px;
+    height: 64px;
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.call
+{
+    display: inline-block;
+    margin-left: 60px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+.wx1
+{
+    display: inline-block;
+    background:url(../images/ew1.png.png) no-repeat;
+    width: 109px;
+    height: 109px;
+}
+.wx2
+{
+    display: inline-block;
+    background:url(../images/ew2.png.png) no-repeat;
+    width: 109px;
+    height: 109px;
+    margin-left: 30px;
+}
+.foot
+{
+    margin-top: 30px;
+    height:40px;
+    border-top: 4px solid #333366;
+    padding-top: 10px;
+    border-bottom: 1px solid #333366;
+}
+
+/*
+总结：boostrap框架不数学
+    Ui妹子的设计图太变态
+    不过我喜欢
+
+*/
+
+.btnoffset
+{
+    margin-top: 40px;
+    margin-right: -10px;
+}
+@media  screen and (max-width: 768px) {
+
+    .my_favorite_menu{
+        border-right: 0px solid #282959;
+    }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+    {
+        background-color: #282959;
+        color: #ffffff;
+        margin-top:5px;
+    }
+
+    .manage_mentu .row{
+        position: relative;
+    }
+    .mediastyle
+    {
+        margin-top: -90px;
+    }
+    .tx_img
+    {
+        position: absolute;
+        top: -35px;
+        right: 10px;
+    }
+
+
+    .my_favorite_menu .favorite_menu li
+    {
+        height: 100px;
+        width: 20px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+    .favorite_menu
+    {
+        margin-left: -100px;
+        margin-top: 10px;
+    }
+
+    .favorite_manage ul
+    {
+        width: 450px;
+        margin-left: -100px;
+        margin-top: -400px;
+
+    }
+    .ulcp_imgbox li
+    {
+        margin-left: 47px;
+
+    }
+
+   .favorite_manage>p
+   {
+        margin-top: -400px;
+       margin-left: -80px;
+   }
+    .pages
+    {
+        width: 500px;
+        margin-top: -290px;
+        margin-left: 8px;
+
+    }
+
+    .coupons_manage>p
+    {
+        margin-top: -13px;
+        margin-left: -80px;
+    }
+
+    .coupons_manage_ul li
+    {
+        float: left;
+    }
+    .coupons_manage li
+    {
+        margin-left: 15px;
+    }
+    .coupons_manage_ul{
+        margin-top: -10px;
+        margin-left: -54px
+    }
+    .hint
+    {
+        margin-top: 24px;
+    }
+    .foot
+    {
+        height: 80px;
+    }
+
+}

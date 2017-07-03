@@ -1,0 +1,247 @@
+/*导航栏*/
+.clear{
+    clear:  both;
+}
+
+#nav{
+    background-color: #282959  ;
+    height: 102px;
+    position: relative;
+    margin-bottom: 0;
+}
+.nav-header-top{
+    color: white;
+    margin-top: 18px;
+}
+.nav-lists{
+    position: absolute;
+    top: 60px;
+}
+.about-type{
+    font-family: Arial, "微软雅黑", sans-serif;
+    color: #999999 !important;
+    text-decoration: none;
+    font-size: 16px !important;
+}
+#nav-conter{
+    background-color: #282959;
+    padding: 5px 0;
+}
+.login-reg{
+    padding-top: 18px;
+}
+/*导航栏结束*/
+
+/*文本*/
+/*左边*/
+.about-top{
+    margin-top: 122px;
+}
+.about-size{
+    width: 736px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color:#666;
+}
+.about-up{
+    margin-top: 71px;
+}
+.about-center{
+    float: left;
+}
+.about-text{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.about-up2{
+    margin-top: 52px;
+}
+
+/*右边*/
+.about-margin-left{
+    margin-left: 146px;
+}
+.about-center2{
+    margin-left: 130px;
+    margin-bottom: 31px;
+}
+.about-imgx{
+    width: 313px;
+    height: 266px;
+    /*border: 1px solid rgb(51,51,51);*/
+}
+.about-imgx img{
+    width: 104px;
+    height: 52px;
+    border: 2px solid rgb(102,102,102);
+}
+/*文本结束*/
+
+/*图片区*/
+.about-top3{
+    margin-top: 105px;
+}
+.about-color{
+    text-align: center;
+    line-height: 34px;
+    display: block;
+    width: 134px;
+    height: 34px;
+    background: rgb(51,51,102);
+    color:rgb(204,204,204);
+}
+.left>div{
+    float:left;
+}
+.about-img2{
+    margin-left: 50px;
+}
+.about-img3{
+    margin-left: 54px;
+}
+.about-img4{
+    margin-left: 41px;
+}
+/*图片区*/
+
+/*最后*/
+.about-top4{
+    margin-top: 105px;
+}
+.about-wire{
+    border-bottom: 2px solid rgb(51,51,102);
+    margin-bottom: 10px;
+}
+.about-wire2{
+    border-bottom: 2px solid rgb(51,51,51);
+}
+.about-control {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-left: -12px;
+}
+.about-control span{
+    margin-left: 12px;
+    font-family: 微软雅黑;
+    color:#333;
+}
+
+.about-control2{
+    text-align: center;
+    font-family: 微软雅黑;
+    color: #666;
+    margin-left: -30px;
+    margin-bottom:10px;
+}
+.about-control2 span{
+    margin-left: 25px;
+}
+/*最后结束*/
+
+@media (max-width: 768px) {
+    /*导航栏*/
+    .back{
+        margin-top: -50px;
+    }
+    #buttons{
+        position: absolute;
+        margin-left: 110%;
+    }
+    .navbar-header{
+        width: 45%;
+        /*margin-top: -14%;*/
+        margin-left: 30%;
+        margin-bottom: 5px;
+    }
+    .banquan{
+        font-size: 12px;
+    }
+    /*导航栏结束*/
+    /**/
+    .about-top{
+        margin-top: 150px;
+    }
+    .about-size{
+        width: 360px;
+    }
+    .about-up{
+        margin-top: 50px;
+    }
+    .about-center{
+        float: left;
+    }
+    .about-text{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 80%;
+    }
+    .about-up2{
+        margin-top: 30px;
+    }
+    /*右边*/
+    .about-margin-left{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    /**/
+
+    /*图片区*/
+    .about-color{
+        margin-left: 90px;
+    }
+    .about-img2{
+        margin-left: 90px;
+    }
+    .about-img3{
+        margin-left: 5px;
+    }
+    .about-img4{
+        margin-left: 90px;
+    }
+    .about-control2{
+        /*text-align: center;*/
+        /*font-family: 微软雅黑;*/
+        /*color: #666;*/
+        /*margin-left: -30px;*/
+        /*margin-bottom:10px;*/
+
+        font-size: 12px;
+        margin-left:-4%;
+        margin-bottom:10px;
+    }
+    /*图片区结束*/
+
+    /*图片*/
+    .cart-height{
+        height: 50px;
+    }
+    .cart-length{
+        width: 180px;
+        height: 30px;
+    }
+    .cart-length{
+        margin-top: 10px;
+    }
+    .cart-chunk{
+        font-size: 15px;
+        margin-right: 20px;
+        line-height: 30px;
+    }
+    .cart-conter{
+        float: right;
+        margin-right: 20px;
+    }
+    .cart-conter img{
+        width: 50px;
+        height: 50px;
+
+    }
+    .cart-conter span{
+        width: 90px;
+        font-size: 10px;
+        margin-top: 30px;
+        margin-left: -90px;
+    }
+}
